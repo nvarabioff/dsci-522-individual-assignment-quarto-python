@@ -44,6 +44,11 @@ quarto render reports/qmd_example.qmd --to html
 quarto render reports/qmd_example.qmd --to pdf
 ```
 
+4. Render to docs/ directory to serve on GitHub Pages
+
+```
+quarto render reports/qmd_example.qmd --to html --output-dir ../docs
+```
 #### Clean up
 
 1. To shut down the container and clean up the resources, 
