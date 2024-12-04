@@ -49,6 +49,7 @@ quarto render reports/qmd_example.qmd --to pdf
 ```
 quarto render reports/qmd_example.qmd --to html --output-dir ../docs
 ```
+
 #### Clean up
 
 1. To shut down the container and clean up the resources, 
